@@ -11,6 +11,15 @@
 		74B1A3BB27CD182900575993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3BA27CD182900575993 /* ContentView.swift */; };
 		74B1A3BD27CD182B00575993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B1A3BC27CD182B00575993 /* Assets.xcassets */; };
 		74B1A3C027CD182B00575993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B1A3BF27CD182B00575993 /* Preview Assets.xcassets */; };
+		74B1A3C727CD186200575993 /* gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3C627CD186200575993 /* gestures.swift */; };
+		74B1A3C927CD1CE800575993 /* HapticsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3C827CD1CE800575993 /* HapticsPractice.swift */; };
+		74B1A3CB27CD2FB700575993 /* DisablingUserInteractivityPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3CA27CD2FB700575993 /* DisablingUserInteractivityPractice.swift */; };
+		74B1A3CD27CD31FD00575993 /* TimerClassPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3CC27CD31FD00575993 /* TimerClassPractice.swift */; };
+		74B1A3CF27CD3BBC00575993 /* BackgroundPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3CE27CD3BBC00575993 /* BackgroundPractice.swift */; };
+		74B1A3D127CD3DA000575993 /* AccessibiltyPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3D027CD3DA000575993 /* AccessibiltyPractice.swift */; };
+		74B1A3D427CD4F4500575993 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3D327CD4F4500575993 /* Card.swift */; };
+		74B1A3D627CD501900575993 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3D527CD501900575993 /* CardView.swift */; };
+		74B1A3D827CEC48900575993 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1A3D727CEC48900575993 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		74B1A3BA27CD182900575993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74B1A3BC27CD182B00575993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B1A3BF27CD182B00575993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74B1A3C627CD186200575993 /* gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestures.swift; sourceTree = "<group>"; };
+		74B1A3C827CD1CE800575993 /* HapticsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsPractice.swift; sourceTree = "<group>"; };
+		74B1A3CA27CD2FB700575993 /* DisablingUserInteractivityPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablingUserInteractivityPractice.swift; sourceTree = "<group>"; };
+		74B1A3CC27CD31FD00575993 /* TimerClassPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerClassPractice.swift; sourceTree = "<group>"; };
+		74B1A3CE27CD3BBC00575993 /* BackgroundPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPractice.swift; sourceTree = "<group>"; };
+		74B1A3D027CD3DA000575993 /* AccessibiltyPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibiltyPractice.swift; sourceTree = "<group>"; };
+		74B1A3D327CD4F4500575993 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		74B1A3D527CD501900575993 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		74B1A3D727CEC48900575993 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,10 @@
 			children = (
 				74B1A3B827CD182900575993 /* Flashzilla_SwiftUIApp.swift */,
 				74B1A3BA27CD182900575993 /* ContentView.swift */,
+				74B1A3D527CD501900575993 /* CardView.swift */,
+				74B1A3D327CD4F4500575993 /* Card.swift */,
+				74B1A3D727CEC48900575993 /* EditCards.swift */,
+				74B1A3D227CD4F1600575993 /* Practice */,
 				74B1A3BC27CD182B00575993 /* Assets.xcassets */,
 				74B1A3BE27CD182B00575993 /* Preview Content */,
 			);
@@ -65,6 +87,19 @@
 				74B1A3BF27CD182B00575993 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74B1A3D227CD4F1600575993 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				74B1A3C627CD186200575993 /* gestures.swift */,
+				74B1A3C827CD1CE800575993 /* HapticsPractice.swift */,
+				74B1A3CA27CD2FB700575993 /* DisablingUserInteractivityPractice.swift */,
+				74B1A3CC27CD31FD00575993 /* TimerClassPractice.swift */,
+				74B1A3CE27CD3BBC00575993 /* BackgroundPractice.swift */,
+				74B1A3D027CD3DA000575993 /* AccessibiltyPractice.swift */,
+			);
+			path = Practice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B1A3CB27CD2FB700575993 /* DisablingUserInteractivityPractice.swift in Sources */,
+				74B1A3D427CD4F4500575993 /* Card.swift in Sources */,
+				74B1A3CD27CD31FD00575993 /* TimerClassPractice.swift in Sources */,
+				74B1A3CF27CD3BBC00575993 /* BackgroundPractice.swift in Sources */,
+				74B1A3D827CEC48900575993 /* EditCards.swift in Sources */,
+				74B1A3D627CD501900575993 /* CardView.swift in Sources */,
 				74B1A3BB27CD182900575993 /* ContentView.swift in Sources */,
 				74B1A3B927CD182900575993 /* Flashzilla_SwiftUIApp.swift in Sources */,
+				74B1A3C727CD186200575993 /* gestures.swift in Sources */,
+				74B1A3C927CD1CE800575993 /* HapticsPractice.swift in Sources */,
+				74B1A3D127CD3DA000575993 /* AccessibiltyPractice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +320,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +349,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
